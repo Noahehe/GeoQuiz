@@ -1,0 +1,25 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<title>Geography Quiz</title>
+</head>
+<body style="background-color:aquamarine;">
+<center>
+    <h1 id="heading1">Geography Quiz</h1>
+    <h3>FOR JAX</h3><br>
+    <p>Password:<input id="enterPassword" type="password" placeholder="enter password"/></p><br>
+    <a href="https://noahehe.github.io/j6nustg4a356/" onclick="return checkPassword();">Submit Password and Start Quiz</a>
+</center>
+<script>
+    function checkPassword() {
+        var password = document.getElementById("enterPassword");
+        var passwordText = password.value;
+        if(passwordText == "jaxlikesgloble") {
+            return true;
+        }
+        alert("Access Denied! Wrong Password");
+        return false;
+    }
+</script>
+</body>
+</html>
